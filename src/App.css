@@ -1,0 +1,35 @@
+*{
+    height: 100px;
+    background-color: aqua;
+}
+
+.Calc{
+    margin: 100px auto;
+    width: 320px;
+}
+.entry{
+    width: 300px;
+    height: 45px;
+    font-size: 35px;
+    border: 2px solid black;
+    text-align: center;
+    background-color:#e2e2e2;
+    padding: 10px;
+}
+.age{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    border-radius: 30%;
+   
+}
+.age input[type="button"] {
+   height: 80px;
+   width: 108px;
+   background: black;
+   color: white;
+   font-size: 30px;
+   
+  }
+  
+
+  
